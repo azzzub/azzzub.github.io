@@ -1,0 +1,142 @@
+.body {
+  background-color: #c0c0c0;
+}
+.row {
+  border-radius: 30px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.glitch1 {
+  color: #67f3da;
+  position: absolute;
+  top: 0px;
+  animation: glitch2 2.5s infinite;
+}
+
+.glitch2 {
+  color: #f16f6f;
+  top: 0px;
+  position: absolute;
+  animation: glitch3 2.5s infinite;
+}
+
+/*Keyframes*/
+
+@keyframes glitch2 {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  7% {
+    transform: translate(-2px, -3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0;
+  }
+  27% {
+    transform: none;
+    opacity: 0;
+  }
+  30% {
+    transform: translate(-5px, -2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0;
+  }
+  52% {
+    transform: none;
+    opacity: 0;
+  }
+  55% {
+    transform: translate(-5px, -1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0;
+  }
+  72% {
+    transform: none;
+    opacity: 0;
+  }
+  75% {
+    transform: translate(-2px, -6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 0;
+  }
+}
+
+@keyframes glitch3 {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0;
+  }
+  27% {
+    transform: none;
+    opacity: 0;
+  }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0;
+  }
+  52% {
+    transform: none;
+    opacity: 0;
+  }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0;
+  }
+  72% {
+    transform: none;
+    opacity: 0;
+  }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 0;
+  }
+}
