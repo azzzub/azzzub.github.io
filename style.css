@@ -115,6 +115,7 @@ h3 {
   color: #67f3da;
   position: absolute;
   top: 0px;
+  padding-right: 20px;
   animation: glitch2 2.5s infinite;
 }
 
@@ -122,6 +123,7 @@ h3 {
   color: #f16f6f;
   top: 0px;
   position: absolute;
+  padding-right: 20px;
   animation: glitch3 2.5s infinite;
 }
 
@@ -143,7 +145,7 @@ h3 {
     opacity: 0;
   }
   30% {
-    transform: translate(-5px, -2px);
+    transform: translate(-2px, -2px);
     opacity: 0.5;
   }
   35% {
@@ -155,7 +157,7 @@ h3 {
     opacity: 0;
   }
   55% {
-    transform: translate(-5px, -1px);
+    transform: translate(-2px, -1px);
     opacity: 0.5;
   }
   50% {
@@ -167,7 +169,7 @@ h3 {
     opacity: 0;
   }
   75% {
-    transform: translate(-2px, -6px);
+    transform: translate(-2px, -2px);
     opacity: 0.5;
   }
   80% {
@@ -186,7 +188,7 @@ h3 {
     opacity: 0;
   }
   7% {
-    transform: translate(2px, 3px);
+    transform: translate(2px, 2px);
     opacity: 0.5;
   }
   10% {
@@ -198,7 +200,7 @@ h3 {
     opacity: 0;
   }
   30% {
-    transform: translate(5px, 2px);
+    transform: translate(2px, 2px);
     opacity: 0.5;
   }
   35% {
@@ -210,7 +212,7 @@ h3 {
     opacity: 0;
   }
   55% {
-    transform: translate(5px, 1px);
+    transform: translate(2px, 1px);
     opacity: 0.5;
   }
   50% {
@@ -222,7 +224,7 @@ h3 {
     opacity: 0;
   }
   75% {
-    transform: translate(2px, 6px);
+    transform: translate(2px, px);
     opacity: 0.5;
   }
   80% {
