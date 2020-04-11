@@ -1,6 +1,65 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  position: relative;
+  background-color: #c0c0c0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #888;
+  width: 95%;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.3s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  font-size: 18px;
+}
+
+.close:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image-det {
+  width: 150px;
+  border-radius: 30px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
+  padding: 10px;
+  margin: 10px;
+}
+
 .body {
   background-color: #c0c0c0;
 }
+
 .row-bound {
   border-radius: 30px;
   background: #c0c0c0;
@@ -11,21 +70,41 @@
   padding: 15px;
 }
 
-.image-over{
+.image-over {
   border-radius: 30px;
   background: #c0c0c0;
   box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
-  margin-top: 30px;
+  margin-top: 25px;
   width: 148px;
   height: 300px;
-  padding:10px;
+  padding: 10px;
+  filter: saturate(0.8);
 }
 
-.profile{
+.image-over:hover {
+  filter: saturate(1);
+  box-shadow: 23px 23px 36px #a3a3a3, -23px -23px 36px #dddddd;
+  width: 154px;
+  height: 306px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile {
   vertical-align: middle;
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  border-radius: 30px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
+  margin-top: 25px;
+  padding: 5px;
+  filter: saturate(0.2);
+}
+.profile:hover {
+  filter: saturate(1);
+  transition: 0.3s;
 }
 
 h3 {
@@ -45,8 +124,6 @@ h3 {
   position: absolute;
   animation: glitch3 2.5s infinite;
 }
-
-/*Keyframes*/
 
 @keyframes glitch2 {
   0% {

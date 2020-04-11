@@ -5,12 +5,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ayub site</title>
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap//css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body">
 	<div class="container">
+
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content container">
+				<div class="row p-3 d-flex justify-content-around" id="modal-content">
+					<img src="/assets/portfolio/detail/port1/port1-1.png" class="image-det">
+					<img src="/assets/portfolio/detail/port1/port1-2.png" class="image-det">
+					<img src="/assets/portfolio/detail/port1/port1-3.png" class="image-det">
+					<img src="/assets/portfolio/detail/port1/port1-4.png" class="image-det">
+					<img src="/assets/portfolio/detail/port1/port1-5.png" class="image-det">
+				</div>
+				<div class="p-3">
+					<h4>
+						💡 Smart Street Light
+					</h4>
+				</div>
+			</div>
+
+		</div>
+
+
 		<div class="row-bound row">
 			<div class="col-sm-4">
 				<h3>yuana ayub sunarya</h3>
@@ -22,23 +44,17 @@
 					💻 software dev.<br><br>
 					🌄 Surakarta, ID<br><br>
 					<i>find me on:</i><br>
-					<div class="row"">
-						<div class="col-2">
-							<img src="assets/profile.jpg" class="profile" alt="...">
-						</div>
-						<div class="col">
-							<div class="row">
-								<div class="col">
-									Github<br>
-									Facebook<br>
-								</div>
-								<div class="col">
-									Twitter<br>
-									Instagram<br>
-								</div>
-							</div>
-						</div>
-					</div>
+					<img src="assets/icons/github-icon.png" class="profile">
+					<img src="assets/icons/facebook-icon.png" class="profile">
+					<img src="assets/icons/twitter-icon.png" class="profile">
+					<img src="assets/icons/instagram-icon.png" class="profile">
+					<img src="assets/icons/linkedin-icon.png" class="profile">
+					<br>
+					<br>
+					<i>contact me at:</i>
+					<br><br>
+					📞 +62 857 7048 3536 <br>
+					📫 yuanaayubs@gmail.com
 				</p>
 				<br>
 				<br>
@@ -47,17 +63,18 @@
 				<h3>'s portfolio</h3>
 				<div class="d-flex flex-wrap justify-content-around">
 
-					<img src="assets/port2.png" class="image-over">
-					<img src="assets/port1.png" class="image-over">
-					<img src="assets/port3.png" class="image-over">
+					<img src="assets/portfolio/port2.png" class="image-over" id="port1">
+					<img src="assets/portfolio/port1.png" class="image-over">
+					<img src="assets/portfolio/port3.png" class="image-over">
 					<!-- <img src="assets/port2.png" class="image-over"> -->
 				</div>
 				<br>
 			</div>
 		</div>
-
 	</div>
 </body>
-<script src="./js/bootstrap.min.js"></script>
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="script/script.js"></script>
 
 </html>
