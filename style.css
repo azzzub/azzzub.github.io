@@ -115,7 +115,7 @@ h3 {
   color: #67f3da;
   position: absolute;
   top: 0px;
-  padding-right: 16px;
+  padding-right: 15px;
   animation: glitch2 2.5s infinite;
 }
 
@@ -123,7 +123,7 @@ h3 {
   color: #f16f6f;
   top: 0px;
   position: absolute;
-  padding-right: 16px;
+  padding-right: 15px;
   animation: glitch3 2.5s infinite;
 }
 
