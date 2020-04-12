@@ -30,7 +30,8 @@ document.getElementById('port1').onclick = () => {
 
 document.getElementById('port2').onclick = () => {
   modal.style.display = 'block';
-  document.getElementById('modal-title').innerHTML = '💧 Irigation Water Quality Monitoring';
+  document.getElementById('modal-title').innerHTML =
+    '💧 Irigation Water Quality Monitoring';
   document.getElementById('modal-main').innerHTML = `
   <img src="/assets/portfolio/port1.png" class="image-det">
   <img src="/assets/portfolio/detail/port2/port2-3.png" class="image-det">
@@ -49,6 +50,27 @@ document.getElementById('port2').onclick = () => {
   <img class="tech-det" src="/assets/icons/css-icon.png" />
   <img class="tech-det" src="/assets/icons/php-icon.png" />
   <img class="tech-det" src="/assets/icons/mysql-icon.png" />
+  <img class="tech-det" src="/assets/icons/github-icon.png" />
+  <img class="tech-det" src="/assets/icons/figma-icon.png" />`;
+};
+
+document.getElementById('port3').onclick = () => {
+  modal.style.display = 'block';
+  document.getElementById('modal-title').innerHTML = '🚴‍♀️ Batex Ride';
+  document.getElementById('modal-main').innerHTML = `
+  <img src="/assets/portfolio/port3.png" class="image-det">
+  <img src="/assets/portfolio/detail/port3/port3-1.png" class="image-det">
+  <img src="/assets/portfolio/detail/port3/port3-2.png" class="image-det">
+  <img src="/assets/portfolio/detail/port3/port3-3.png" class="image-det">`;
+  document.getElementById('modal-desc').innerHTML = `
+  Batex ride app is user side service for bike sharing technology to give bike rent service, in this app 
+  user can scan the bike's QR code and rent it with some charge than the app could save user's ride data.
+  Battery and bike location can be monitor to provide more accurate data to each business owner and the user.
+  <br><br><i>On this app, I do front-end developer</i> 💪`;
+  document.getElementById('modal-tech').innerHTML = `
+  This app uses:
+  <img class="tech-det" src="/assets/icons/react-icon.png" />
+  <img class="tech-det" src="/assets/icons/redux-icon.png" />
   <img class="tech-det" src="/assets/icons/github-icon.png" />
   <img class="tech-det" src="/assets/icons/figma-icon.png" />`;
 };
