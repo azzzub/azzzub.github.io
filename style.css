@@ -12,6 +12,10 @@
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
+.modal-close:hover {
+  cursor: pointer;
+}
+
 .modal-content {
   position: relative;
   background-color: #c0c0c0;
@@ -49,6 +53,16 @@
 
 .image-det {
   width: 150px;
+  border-radius: 30px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-det-web {
+  width: 280px;
+  height: 300px;
   border-radius: 30px;
   background: #c0c0c0;
   box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
@@ -105,6 +119,26 @@
 .profile:hover {
   filter: saturate(1);
   transition: 0.3s;
+}
+
+.tech-det {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-radius: 30px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 26px #a3a3a3, -13px -13px 26px #dddddd;
+  padding: 5px;
+  filter: saturate(0.2);
+}
+
+.tech-det:hover {
+  filter: saturate(1);
+  transition: 0.3s;
+  width:53px;
+  height:53px;
 }
 
 h3 {
